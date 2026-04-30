@@ -18,7 +18,7 @@ export function FadeRise({
   children,
   delay = 0,
   duration = 0.7,
-  amount = 0.2,
+  amount = 0.05,
   className,
   as = 'div',
 }: FadeRiseProps) {
