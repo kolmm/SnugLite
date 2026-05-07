@@ -21,11 +21,19 @@ export function CategoriesShowcase() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {CATEGORIES.map((cat, idx) => {
           const count = PRODUCTS.filter((p) => p.category === cat.slug).length;
+          const isWide = cat.slug === 'lighting';
           return (
-            <FadeRise key={cat.slug} delay={idx * 0.1}>
+            <FadeRise
+              key={cat.slug}
+              delay={idx * 0.1}
+              className={isWide ? 'md:col-span-2' : undefined}
+            >
               <Link
                 to={`/shop/${cat.slug}`}
-                className="group block relative overflow-hidden bg-paper aspect-[4/3]"
+                className={
+                  'group block relative overflow-hidden bg-paper ' +
+                  (isWide ? 'aspect-[4/3] md:aspect-[8/3]' : 'aspect-[4/3]')
+                }
               >
                 <img
                   src={`/${normalizePath(cat.image)}`}
@@ -46,27 +54,6 @@ export function CategoriesShowcase() {
             </FadeRise>
           );
         })}
-
-        <FadeRise delay={0.2} className="md:col-span-2">
-          <div className="bg-ink text-cream aspect-[8/3] flex items-center justify-center text-center px-6">
-            <div>
-              <p className="caption text-cream/60">Coming Autumn 2026</p>
-              <h3 className="display-md mt-4">
-                Lighting{' '}
-                <span
-                  className="text-rust"
-                  style={{ fontFamily: 'Italianno, cursive', fontSize: '1.1em' }}
-                >
-                  soon
-                </span>
-              </h3>
-              <p className="text-cream/70 mt-3 max-w-md mx-auto">
-                A curated lighting range is in development with our partner
-                ateliers. Sign up to be notified first.
-              </p>
-            </div>
-          </div>
-        </FadeRise>
       </div>
     </section>
   );

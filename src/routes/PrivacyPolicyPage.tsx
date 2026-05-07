@@ -7,9 +7,9 @@ export function PrivacyPolicyPage() {
       <section>
         <h2 className="font-display text-xl font-bold mb-3">1. Who we are</h2>
         <p>
-          {BRAND.ENTITY} ({BRAND.NAME}) operates this website. Registered office:{' '}
-          {CONTACT.ADDRESS_LINE_1}, {CONTACT.ADDRESS_LINE_2}, {CONTACT.COUNTRY}.
-          Contact: {CONTACT.EMAIL}.
+          {BRAND.ENTITY} ({BRAND.NAME}), Company No. {BRAND.COMPANY_NUMBER},
+          operates this website. Registered office: {CONTACT.ADDRESS_LINE_1},{' '}
+          {CONTACT.ADDRESS_LINE_2}, {CONTACT.COUNTRY}. Contact: {CONTACT.EMAIL}.
         </p>
       </section>
 

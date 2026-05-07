@@ -18,17 +18,20 @@ export const ROUTES = {
 export const BRAND = {
   NAME: 'SnugLite',
   ENTITY: 'SnugLite SRL',
+  COMPANY_NUMBER: '54577220',
   TAGLINE: 'Considered Workspaces',
   SUBTITLE: 'Office Furniture & Workspace Solutions',
   YEAR_FOUNDED: 2026,
 } as const;
 
 export const CONTACT = {
-  EMAIL: 'orders@snuglite.eu',
-  PHONE: '+39 02 0000 0000',
-  ADDRESS_LINE_1: '[ADDRESS_PLACEHOLDER]',
-  ADDRESS_LINE_2: '[CITY_POSTAL_PLACEHOLDER]',
-  COUNTRY: '[COUNTRY_PLACEHOLDER]',
+  EMAIL: 'orders@snuglitesrl.com',
+  DOMAIN: 'snuglitesrl.com',
+  SITE_URL: 'https://snuglitesrl.com',
+  // PHONE: '',
+  ADDRESS_LINE_1: 'Str. Pucheni, 115B',
+  ADDRESS_LINE_2: 'Sector 5, Municipiul Bucureşti',
+  COUNTRY: 'Romania',
 } as const;
 
 export const STORAGE_KEYS = {

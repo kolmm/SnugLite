@@ -93,6 +93,7 @@ export function Footer() {
         <div className="border-t border-cream/15 mt-16 pt-8 flex flex-col md:flex-row justify-between gap-4 caption text-cream/50">
           <span>
             © {new Date().getFullYear()} {BRAND.ENTITY}. All rights reserved.
+            <span className="ml-2">Company No. {BRAND.COMPANY_NUMBER}</span>
           </span>
           <span>Designed in the EU. Built with care.</span>
         </div>

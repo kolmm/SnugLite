@@ -17,7 +17,7 @@ export const FAQ_ITEMS: FaqItem[] = [
   {
     question: "Can I see a piece before ordering?",
     answer:
-      "Some pieces are available to view at our partner showrooms in Milan and Bucharest. Reach out via the contact form and we will arrange access.",
+      "Selected pieces are available to view at our Bucharest showroom. Reach out via the contact form and we will arrange access.",
   },
   {
     question: "What is your return policy?",
@@ -27,11 +27,11 @@ export const FAQ_ITEMS: FaqItem[] = [
   {
     question: "Do you offer lighting?",
     answer:
-      "A curated lighting range is in development and will launch alongside our autumn collection. Sign up for updates to be notified first.",
+      "Yes — task lamps, clamp lamps, ceiling fixtures, table lamps, and pendants are listed under the Lighting category. Every unit ships with an EU plug, CE declaration of conformity, and a written warranty.",
   },
   {
     question: "How are products selected?",
     answer:
-      "Every piece in the catalog is chosen for material honesty, build quality, and longevity. We work with a small group of European manufacturers and visit production sites annually.",
+      "Every SKU is tested in our studio before listing — we log gas-lift drop, fastener loosening, finish wear, and daily-use comfort. Suppliers are vetted on registration, certifications, and audit references; we publish the full spec sheet on every listing.",
   },
 ];

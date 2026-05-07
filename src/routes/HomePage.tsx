@@ -7,7 +7,7 @@ import { Newsletter } from '../components/sections/Newsletter';
 
 const MANIFESTO_BODY = [
   'We started SnugLite because the office is the place we spend most of our waking life — and most of what fills it is forgettable.',
-  'Every piece in this catalogue is chosen for material honesty and longevity. We work with a small group of European makers and visit their workshops yearly.',
+  'Every SKU in this catalogue is chosen for material honesty and longevity. We vet our suppliers, test every unit in our own studio, and publish the spec in full.',
   'Function meets material. Nothing more, nothing less.',
 ];
 

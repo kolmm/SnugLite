@@ -24,7 +24,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: EASE_SOFT }}
         >
-          {BRAND.NAME} — Atelier for Workspaces
+          {BRAND.NAME} — Curated for Workspaces
         </motion.p>
 
         <h1 className="display-xl mt-6 max-w-4xl">
@@ -53,9 +53,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4, ease: EASE_SOFT }}
         >
-          A small catalogue of office furniture and lighting, chosen for
-          material honesty and built to outlast the season. Sourced across the
-          EU. Delivered with care.
+          A short catalogue of office seating, lighting, and workspace
+          accessories. Vetted suppliers, tested in-studio, shipped from EU
+          fulfilment with the spec sheet on every listing.
         </motion.p>
 
         <motion.div
