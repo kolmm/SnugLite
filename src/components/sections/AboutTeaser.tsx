@@ -34,9 +34,10 @@ export function AboutTeaser() {
             </h2>
             <p className="text-lg text-stone leading-relaxed mt-8 max-w-xl">
               SnugLite is a curated reseller of office seating, lighting, and
-              workspace accessories. We vet suppliers, test every SKU in the
-              studio, and publish the full spec sheet — materials, dimensions,
-              certifications, warranty in writing.
+              workspace accessories. We vet suppliers, audit every spec, and
+              publish the full sheet — materials, dimensions, certifications,
+              warranty in writing. Orders ship direct from the supplier's
+              warehouse.
             </p>
             <Link
               to={ROUTES.ABOUT}

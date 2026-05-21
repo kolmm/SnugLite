@@ -1,0 +1,68 @@
+{
+  "market": {
+    "eu_furniture_size_eur_bn": 110,
+    "eu_furniture_size_year": 2024,
+    "eu_furniture_cagr_pct": 5.96,
+    "eu_online_furniture_penetration_pct": 26,
+    "romania_ecommerce_size_eur_bn_2024": 7.0,
+    "romania_ecommerce_projection_2026": 8.56,
+    "aov_eur": 180,
+    "source_market": "EFIC Facts & Figures 2024; Mordor Intelligence Europe Office Furniture Market 2025-2031; EuroCommerce European E-commerce Report 2025; Ecommerce Europe / Statista Romania E-commerce 2024; ECDB AOV Benchmarks 2024"
+  },
+  "margins": {
+    "online_furniture_gross_margin_low_pct": 35,
+    "online_furniture_gross_margin_high_pct": 50,
+    "source_margins": "Artisan Furniture Wholesale Profit Margins for Resellers & Dropshippers 2024; iEnhance Furniture Profit Margins 2024"
+  },
+  "competitors": [
+    {"name": "Maisons du Monde", "country": "France", "positioning": "Eclectic, design-led omnichannel home and furniture retailer with strong online curated catalogue across EU.", "source": "Owler 2024"},
+    {"name": "Westwing", "country": "Germany", "positioning": "Curated design-led home and furniture e-commerce club, premium-leaning, pan-European.", "source": "Owler 2024"},
+    {"name": "Home24", "country": "Germany", "positioning": "Pure-play online home and furniture retailer, broad EU coverage, mid-market positioning.", "source": "Owler 2024"},
+    {"name": "Heal's", "country": "United Kingdom", "positioning": "Heritage British design retailer with curated contemporary furniture and lighting, premium positioning.", "source": "The Good Web Guide 2024"},
+    {"name": "Swoon", "country": "United Kingdom", "positioning": "Direct-to-consumer curated design furniture working with artisans across UK and EU.", "source": "The Good Web Guide 2024"}
+  ],
+  "regulation": {
+    "ioss_oss_summary": "OSS allows EU-established sellers to declare all intra-EU B2C distance sales in a single quarterly return; IOSS covers VAT collection at checkout on imported B2C goods up to EUR 150, avoiding customs delays.",
+    "reach_summary": "Regulation (EC) 1907/2006 (REACH) restricts hazardous substances in furniture finishes, adhesives, foams and textiles; sellers must ensure suppliers comply with SVHC notification and Annex XVII restrictions.",
+    "en1335_summary": "EN 1335-1:2020+A1:2022 defines dimensions and chair types (Ax, A, B, C); EN 1335-2:2018 and EN 1335-3 set safety, strength and durability requirements for office work chairs used 8h/day up to 110 kg.",
+    "ce_lighting_summary": "Electrical lamps placed on the EU market require CE marking under the Low Voltage Directive 2014/35/EU, EMC Directive 2014/30/EU, RoHS 2011/65/EU and Ecodesign/EPREL energy labelling (Reg. 2019/2020).",
+    "gdpr_summary": "Regulation (EU) 2016/679 (GDPR) requires lawful basis for processing, transparent privacy notices, consent for marketing cookies (ePrivacy), DPA with processors, and breach notification within 72h.",
+    "source_regulation": "EU Commission VAT One Stop Shop portal; ECHA REACH; CEN EN 1335 series; EUR-Lex Directives 2014/35/EU, 2014/30/EU, 2011/65/EU; Regulation (EU) 2016/679"
+  },
+  "banking_kyc": {
+    "dropshipping_risk_classification": "Dropshipping is consistently classified as high-risk by EU banks and EMIs due to chargeback exposure, fulfilment delays, cross-border flows and AML concerns; onboarding is typically faster with EMIs licensed by Bank of Lithuania or similar regulators than with tier-1 banks.",
+    "typical_kyc_requirements": [
+      "Certificate of incorporation, articles of association and ONRC registry extract for the Romanian SRL",
+      "UBO declaration and ID/proof of address for all 25%+ beneficial owners and directors",
+      "Detailed business model description with supplier agreements and sample invoices",
+      "Website URL with compliant T&Cs, refund/return policy, privacy policy and imprint",
+      "Expected monthly turnover, AOV, target markets and processing history (chargeback ratio)",
+      "Source of funds / source of wealth documentation for shareholders",
+      "Proof of VAT/OSS registration and tax residency",
+      "Ongoing transaction monitoring and enhanced due diligence per PSD2 and AMLD6"
+    ],
+    "source_banking": "Fibonatix High-Risk Payment Processing UK/EEA 2024; EMS Ltd KYC Requirements for High-Risk Merchants 2024; Sumsub E-commerce AML Guide 2024"
+  },
+  "romania_tax": {
+    "micro_enterprise_threshold_eur": 100000,
+    "micro_enterprise_rate_pct": 1,
+    "standard_cit_pct": 16,
+    "vat_registration_threshold_eur": 79000,
+    "vat_rate_standard_pct": 21,
+    "source_tax": "Accace 2026 Tax Guideline for Romania; PwC Worldwide Tax Summaries Romania 2026; KPMG Romania Tax Card 2025"
+  },
+  "citations": [
+    {"claim": "EU furniture market value ~EUR 110 bn, 2024", "source": "EFIC Facts & Figures / Research and Markets 2024", "url": "https://www.efic.eu/facts-figures"},
+    {"claim": "Europe office furniture market CAGR 5.96% 2026-2031 (USD 15.36 bn to USD 20.52 bn)", "source": "Mordor Intelligence Europe Office Furniture Market 2026-2031", "url": "https://www.mordorintelligence.com/industry-reports/europe-office-furniture-market"},
+    {"claim": "26% of European consumers purchased furniture/home accessories online in last 3 months of 2024", "source": "EuroCommerce European E-commerce Report 2025", "url": "https://www.eurocommerce.eu/app/uploads/2025/10/final-corrigendum-executive-summary-european-e-commerce-report-2025.pdf"},
+    {"claim": "Romania e-commerce market reached EUR 7 bn in 2024 (product e-commerce)", "source": "Ecommerce Europe / Statista Romania E-commerce 2024", "url": "https://ecommercenews.eu/ecommerce-in-europe/ecommerce-romania/"},
+    {"claim": "Romania e-commerce projected USD 8.56 bn in 2026, CAGR 7.25% to 2031", "source": "Mordor Intelligence Romania E-commerce Market 2026-2031", "url": "https://www.mordorintelligence.com/industry-reports/romania-ecommerce-market"},
+    {"claim": "Furniture category AOV ~USD 200-253; EMEA e-commerce AOV ~USD 193", "source": "ECDB Top Countries by AOV 2024; Dynamic Yield AOV Benchmarks 2024", "url": "https://ecdb.com/blog/highest-aov-in-ecommerce/5061"},
+    {"claim": "Furniture reseller/dropshipping gross margins 35-50%, net 3-6% post overhead", "source": "Artisan Furniture Wholesale Profit Margins 2024", "url": "https://www.artisanfurniture.us/blog/furniture-wholesale-profit-margins-resellers/"},
+    {"claim": "IOSS for imported B2C goods up to EUR 150; OSS for intra-EU B2C distance sales", "source": "European Commission VAT One Stop Shop portal", "url": "https://vat-one-stop-shop.ec.europa.eu/index_en"},
+    {"claim": "EN 1335-1:2020+A1:2022 (dimensions); EN 1335-2:2018 (safety, 110 kg, 8h/day)", "source": "BSI/CEN EN 1335 series", "url": "https://www.en-standard.eu/bs-en-1335-2-2018-office-furniture-office-work-chair-safety-requirements/"},
+    {"claim": "Dropshipping classified as high-risk by EU acquirers; PSD2/AMLD6 require enhanced KYC", "source": "Fibonatix High-Risk Payment Processing UK/EEA 2024", "url": "https://www.fibonatix.com/resources/payment-processing-high-risk-merchant-industries-fibonatix/"},
+    {"claim": "Romania micro-enterprise regime 2026: 1% rate, turnover cap EUR 100,000", "source": "Accace 2026 Tax Guideline for Romania", "url": "https://www.accace.com/tax-guideline-for-romania/"},
+    {"claim": "Romania CIT 16%; VAT 21% from 1 Aug 2025; VAT registration threshold RON 395,000 (~EUR 79,000)", "source": "PwC Worldwide Tax Summaries Romania 2026", "url": "https://taxsummaries.pwc.com/romania/corporate/taxes-on-corporate-income"}
+  ]
+}

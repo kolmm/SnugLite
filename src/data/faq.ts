@@ -15,9 +15,9 @@ export const FAQ_ITEMS: FaqItem[] = [
       "All prices on the site are quoted in EUR and include VAT. Volume orders for offices over twenty pieces qualify for trade pricing — contact us for a tailored quote.",
   },
   {
-    question: "Can I see a piece before ordering?",
+    question: "Do you have a physical showroom?",
     answer:
-      "Selected pieces are available to view at our Bucharest showroom. Reach out via the contact form and we will arrange access.",
+      "No — SnugLite operates as an online curated catalogue. We do not hold stock; orders ship direct from the supplier's EU warehouse. The full spec sheet, dimensions, and materials are published on every listing so you can compare before buying.",
   },
   {
     question: "What is your return policy?",
@@ -32,6 +32,6 @@ export const FAQ_ITEMS: FaqItem[] = [
   {
     question: "How are products selected?",
     answer:
-      "Every SKU is tested in our studio before listing — we log gas-lift drop, fastener loosening, finish wear, and daily-use comfort. Suppliers are vetted on registration, certifications, and audit references; we publish the full spec sheet on every listing.",
+      "Suppliers are vetted on registration, current certifications (BIFMA, EN 1335, CE, REACH where applicable), and reference checks against existing customer reviews. We require a full technical spec sheet on file before any SKU goes live, and we publish that sheet on every listing.",
   },
 ];

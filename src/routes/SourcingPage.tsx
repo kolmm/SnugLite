@@ -9,12 +9,12 @@ const PRINCIPLES: { title: string; body: string }[] = [
   {
     title: 'We curate, we do not manufacture',
     body:
-      'SnugLite is a curated reseller. We choose suppliers, set the spec, and stand behind every order — but the bench work happens at vetted partner factories, not in our studio.',
+      'SnugLite is a curated online reseller. We choose suppliers, audit the spec, and stand behind every order — manufacturing and dispatch happen at vetted partner factories that ship direct to the buyer.',
   },
   {
-    title: 'Sample-first listing',
+    title: 'Spec-first listing',
     body:
-      'No SKU goes live before we have ordered it ourselves, used it in the studio, and logged how it holds up under daily load.',
+      'No SKU goes live before we have the full sheet on file — materials, certifications, load ratings, warranty terms. If the supplier cannot disclose it on paper, it does not enter the catalogue.',
   },
   {
     title: 'Standards-led, not marketing-led',
@@ -25,6 +25,11 @@ const PRINCIPLES: { title: string; body: string }[] = [
     title: 'Honest lead times',
     body:
       'We disclose where a piece ships from, how long it actually takes, and what the warranty floor is. No glossy estimates that fall apart at checkout.',
+  },
+  {
+    title: 'Direct from the supplier',
+    body:
+      'We do not keep stock. Orders ship from the supplier’s EU warehouse straight to the buyer — fewer intermediaries, faster route to your door, and the same warranty that ships with the unit.',
   },
 ];
 
@@ -66,14 +71,14 @@ const PROCESS: { title: string; body: string }[] = [
       'A supplier is shortlisted only after we receive a full dossier: business registration, certifications on file, factory audit references, and existing client list.',
   },
   {
-    title: 'Sample purchase',
+    title: 'Spec sheet review',
     body:
-      'We buy a unit at retail price through the same channel a customer would. No special builds, no review samples — what we test is what ships.',
+      'We request the full technical sheet — materials, load ratings, gas-lift class, foam density, finish certifications. We cross-check against the standards we list against (BIFMA, EN 1335, CE, REACH).',
   },
   {
-    title: 'Studio trial',
+    title: 'Reference check',
     body:
-      'The unit lives in the studio for ninety days. We log gas-lift drop, fabric pilling, finish wear, and any rattle or fastener loosening under daily use.',
+      'We check existing customer reviews on the supplier’s own channels, ask for a sample of recent shipping records, and confirm warranty handling on past claims. Patterns of complaint kill the listing before it starts.',
   },
   {
     title: 'Spec sheet & listing',
@@ -384,7 +389,7 @@ export function SourcingPage() {
                 to={ROUTES.ABOUT}
                 className="caption inline-flex items-center justify-between gap-3 border-b border-ink py-2 hover:text-rust hover:border-rust"
               >
-                The studio behind it
+                The story behind it
                 <ArrowRight size={14} />
               </Link>
               <Link

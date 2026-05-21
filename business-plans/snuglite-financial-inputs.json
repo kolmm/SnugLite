@@ -1,0 +1,26 @@
+{
+  "currency": "EUR",
+  "horizon_years": 5,
+  "investment": {
+    "total": 2000,
+    "loan": {"amount": 0, "rate": 0.0, "term_years": 1},
+    "equity": 5000
+  },
+  "revenue": {
+    "year1_monthly": 5500,
+    "growth_yoy": [0.50, 0.40, 0.25, 0.20]
+  },
+  "costs": {
+    "cogs_pct": 0.65,
+    "opex_fixed_monthly": 500,
+    "opex_variable_pct": 0.12
+  },
+  "tax_rate": 0.16,
+  "discount_rate": 0.10,
+  "depreciation_years": 3,
+  "working_capital": {
+    "dso_days": 5,
+    "dio_days": 0,
+    "dpo_days": 7
+  }
+}
