@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --font-display: 'Bodoni Moda', 'Times New Roman', serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+  --font-script: 'Italianno', cursive;
+
+  --color-ink: #0A0A0A;
+  --color-cream: #F4F1EA;
+  --color-paper: #FAF8F3;
+  --color-stone: #8B847D;
+  --color-bone: #E8E3D8;
+  --color-rust: #B85C38;
+  --color-rust-dark: #94472A;
+  --color-success: #4A6741;
+  --color-error: #8B2E1F;
+
+  --ease-soft: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-snap: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 700ms;
+
+  --breakpoint-3xl: 1920px;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+
+  button {
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility display-xl {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3rem, 9vw, 6.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@utility display-lg {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+@utility display-md {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+@utility heading-lg {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@utility heading-md {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+@utility script-accent {
+  font-family: var(--font-script);
+  font-weight: 400;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1;
+  color: var(--color-rust);
+}
+
+@utility caption {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@utility tabular {
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+}
