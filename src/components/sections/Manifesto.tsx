@@ -1,4 +1,3 @@
-import { ScriptReveal } from '../motion/ScriptReveal';
 import { FadeRise } from '../motion/FadeRise';
 
 interface ManifestoProps {
@@ -6,6 +5,14 @@ interface ManifestoProps {
   body: string[];
   scriptAccent?: { text: string; insertAfter: string };
 }
+
+const INLINE_SCRIPT_STYLE: React.CSSProperties = {
+  fontFamily: 'Italianno, cursive',
+  fontWeight: 400,
+  fontSize: '1.4em',
+  lineHeight: 0.9,
+  verticalAlign: '-0.05em',
+};
 
 export function Manifesto({
   caption = 'Manifesto',
@@ -19,10 +26,7 @@ export function Manifesto({
         <FadeRise>
           <div className="font-display text-3xl md:text-4xl leading-tight tracking-tight">
             {body.map((para, idx) => {
-              if (
-                scriptAccent &&
-                para.includes(scriptAccent.insertAfter)
-              ) {
+              if (scriptAccent && para.includes(scriptAccent.insertAfter)) {
                 const pieces = para.split(scriptAccent.insertAfter);
                 return (
                   <p key={idx} className="mb-8">
@@ -32,7 +36,9 @@ export function Manifesto({
                         {i < pieces.length - 1 && (
                           <>
                             {scriptAccent.insertAfter}{' '}
-                            <ScriptReveal>{scriptAccent.text}</ScriptReveal>{' '}
+                            <span className="text-rust" style={INLINE_SCRIPT_STYLE}>
+                              {scriptAccent.text}
+                            </span>{' '}
                           </>
                         )}
                       </span>
