@@ -5,7 +5,6 @@ import { PRODUCTS } from '../data/products';
 import { CATEGORIES } from '../data/categories';
 import { ProductCard } from '../components/product/ProductCard';
 import { Select } from '../components/ui/Select';
-import { FadeRise } from '../components/motion/FadeRise';
 import { ScriptReveal } from '../components/motion/ScriptReveal';
 
 type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'name';
@@ -112,13 +111,11 @@ export function ShopPage() {
         ))}
       </nav>
 
-      <FadeRise>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
-          {filtered.map((p, idx) => (
-            <ProductCard key={p.id} product={p} index={idx + 1} />
-          ))}
-        </div>
-      </FadeRise>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        {filtered.map((p, idx) => (
+          <ProductCard key={p.id} product={p} index={idx + 1} />
+        ))}
+      </div>
 
       {filtered.length === 0 && (
         <p className="text-stone text-center py-32">
