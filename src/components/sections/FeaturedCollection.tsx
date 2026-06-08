@@ -7,7 +7,7 @@ import { ROUTES } from '../../lib/constants';
 
 const FEATURED_SLUGS = [
   'luxury-gaming-office-chair',
-  'electric-adjustable-desk',
+  'executive-desk-drawers',
   'multi-layer-rolling-bookshelf',
 ];
 

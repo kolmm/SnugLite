@@ -13,7 +13,7 @@ export function AboutTeaser() {
           <div className="relative">
             <img
               src="/images/lifestyle/about-hero.jpg"
-              alt="Wood-paneled workspace with natural light"
+              alt="Considered office workspace in natural light"
               className="w-full aspect-[4/5] object-cover"
             />
             <div className="absolute -top-12 -right-8 hidden md:block text-ink">
@@ -30,13 +30,13 @@ export function AboutTeaser() {
           <FadeRise>
             <p className="caption text-stone">About</p>
             <h2 className="display-lg mt-4">
-              Where function meets <ScriptReveal>material</ScriptReveal>
+              Where function meets <ScriptReveal>disclosure</ScriptReveal>
             </h2>
             <p className="text-lg text-stone leading-relaxed mt-8 max-w-xl">
-              SnugLite is a curated reseller of office furniture and lighting
-              working with a small group of European manufacturers. We choose
-              pieces for the way they feel under hand, the grain you only notice
-              in afternoon light, the joinery that holds for decades.
+              SnugLite is a curated reseller of office seating, lighting, and
+              workspace accessories. We vet suppliers, test every SKU in the
+              studio, and publish the full spec sheet — materials, dimensions,
+              certifications, warranty in writing.
             </p>
             <Link
               to={ROUTES.ABOUT}

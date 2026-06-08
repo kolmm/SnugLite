@@ -9,7 +9,7 @@ import { Select } from '../components/ui/Select';
 import { SealStamp } from '../components/brand/SealStamp';
 import { PostageFrame } from '../components/brand/PostageFrame';
 import { ScriptReveal } from '../components/motion/ScriptReveal';
-import { CONTACT } from '../lib/constants';
+import { CONTACT, BRAND } from '../lib/constants';
 
 const schema = z.object({
   name: z.string().min(1, 'Required'),
@@ -122,7 +122,7 @@ export function ContactPage() {
               {CONTACT.EMAIL}
             </a>
           </div>
-          <div>
+          {/* <div>
             <p className="caption text-stone mb-4">Phone</p>
             <a
               href={`tel:${CONTACT.PHONE.replace(/\s/g, '')}`}
@@ -130,7 +130,7 @@ export function ContactPage() {
             >
               {CONTACT.PHONE}
             </a>
-          </div>
+          </div> */}
           <div>
             <p className="caption text-stone mb-4">Address</p>
             <p className="text-ink leading-relaxed">
@@ -140,6 +140,10 @@ export function ContactPage() {
               <br />
               {CONTACT.COUNTRY}
             </p>
+          </div>
+          <div>
+            <p className="caption text-stone mb-4">Company Number</p>
+            <p className="text-ink tabular">{BRAND.COMPANY_NUMBER}</p>
           </div>
           <div className="text-rust self-start">
             <SealStamp size={160} centerLines={['SRL', 'EU', '2026']} />
