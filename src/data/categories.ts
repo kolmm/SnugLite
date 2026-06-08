@@ -13,4 +13,10 @@ export const CATEGORIES: CategoryInfo[] = [
     description: "Modular storage and display solutions for modern offices",
     image: "/images/categories/shelving.jpg",
   },
+  {
+    slug: "lighting",
+    name: "Lighting",
+    description: "Task, ambient, and decorative lighting for considered workspaces",
+    image: "/images/categories/lighting.jpg",
+  },
 ];

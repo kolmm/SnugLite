@@ -1,4 +1,4 @@
-export type Category = "furniture" | "shelving";
+export type Category = "furniture" | "shelving" | "lighting";
 
 export interface ProductVariant {
   id: string;
