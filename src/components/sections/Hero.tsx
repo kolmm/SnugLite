@@ -54,8 +54,8 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 0.4, ease: EASE_SOFT }}
         >
           A short catalogue of office seating, lighting, and workspace
-          accessories. Vetted suppliers, tested in-studio, shipped from EU
-          fulfilment with the spec sheet on every listing.
+          accessories. Vetted suppliers, full spec sheets, shipped direct
+          across the EU.
         </motion.p>
 
         <motion.div

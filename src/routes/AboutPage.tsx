@@ -9,7 +9,7 @@ import { BRAND, ROUTES } from '../lib/constants';
 
 const ABOUT_BODY = [
   'SnugLite was founded on the conviction that the office should be the place we choose, not endure.',
-  'We curate seating, lighting, and workspace accessories from a vetted list of suppliers. We test every SKU in our own studio, publish full spec sheets, and back the warranty for the period we list.',
+  'We curate seating, lighting, and workspace accessories from a vetted list of suppliers. We audit specs, publish them in full, and back the manufacturer warranty for the period we list. Orders ship direct from the supplier — fewer hands, fewer markups, faster to your door.',
   'Function meets material. The rest is noise.',
 ];
 
@@ -17,7 +17,7 @@ const TENETS: { title: string; body: string }[] = [
   {
     title: 'Curation over catalogue',
     body:
-      'We carry fewer SKUs than any room would expect. What stays has been tested in the studio, audited for spec, and chosen for one reason: it earns its place at this price.',
+      'We carry fewer SKUs than any room would expect. What stays has been audited for spec and chosen for one reason: it earns its place at this price.',
   },
   {
     title: 'Specs over slogans',
@@ -38,14 +38,14 @@ const PROCESS: { title: string; body: string }[] = [
       'We require business registration, current certifications, audit references, and a real client list before we order a sample. Anonymous suppliers do not enter the path.',
   },
   {
-    title: 'Studio trial',
+    title: 'Spec audit',
     body:
-      'A unit lives in the studio for ninety days under daily load. We log gas-lift drop, fastener loosening, finish wear, and whether we still reach for it. If we do not, it does not ship.',
+      'Before we list a piece we read the full sheet — materials, load ratings, gas-lift class, finish certifications, warranty terms. If the supplier cannot disclose it on paper, it does not go live.',
   },
   {
     title: 'Direct fulfilment',
     body:
-      'Orders move from the supplier through our European fulfilment partner to your door. We track every leg, share the tracking, and answer when something goes wrong.',
+      'Orders ship direct from the supplier to your door through their EU warehouse partner. We track every leg, share the tracking, and answer when something goes wrong.',
   },
 ];
 
@@ -72,7 +72,7 @@ export function AboutPage() {
           <div className="grid grid-cols-12 gap-6">
             <img
               src="/images/lifestyle/about-hero.jpg"
-              alt="Studio interior with curated office furniture"
+              alt="Workspace interior with curated office furniture"
               className="col-span-12 md:col-span-8 aspect-[4/3] object-cover"
             />
             <div className="col-span-12 md:col-span-4 flex flex-col gap-6">
@@ -104,27 +104,26 @@ export function AboutPage() {
           <div className="lg:col-span-6 lg:col-start-7 flex flex-col gap-6 text-lg leading-relaxed">
             <FadeRise delay={0.05}>
               <p>
-                SnugLite began as a furnishing problem — a single office in
-                Bucharest that needed seating, storage, and lighting on a real
-                budget. The market split clean down the middle: anonymous
-                resellers with broken specs, or design stores at three times
-                the budget.
+                SnugLite began as a furnishing problem — an office that needed
+                seating, storage, and lighting on a real budget. The market
+                split clean down the middle: anonymous resellers with broken
+                specs, or design stores at three times the budget.
               </p>
             </FadeRise>
             <FadeRise delay={0.1}>
               <p>
-                So we built the middle ourselves. We vetted suppliers, ordered
-                samples at retail, and ran each unit through ninety days of
-                studio use before listing it. Friends asked where the chair
-                came from, and the lamp, and the cart. The list became a
-                catalogue.
+                So we built the middle ourselves. We tracked down the suppliers
+                behind the pieces we liked, read the spec sheets and
+                certifications, and negotiated direct shipping from their EU
+                warehouses to the customer. Friends asked where the chair came
+                from, and the lamp, and the cart. The list became a catalogue.
               </p>
             </FadeRise>
             <FadeRise delay={0.15}>
               <p className="text-stone">
-                Today {BRAND.ENTITY} operates as a small curated reseller,
-                working with vetted suppliers across the EU. The brief is
-                unchanged: clear specs, fair price, real backing.
+                Today {BRAND.ENTITY} operates as a small online curated
+                reseller, working with vetted suppliers across the EU. The
+                brief is unchanged: clear specs, fair price, real backing.
               </p>
             </FadeRise>
           </div>
@@ -212,9 +211,9 @@ export function AboutPage() {
                 See the pieces <span className="script-accent">we keep</span>
               </h2>
               <p className="text-stone leading-relaxed mt-6 max-w-lg">
-                Every listing has been tested in our studio and signed off on
-                spec. Browse the current selection, or read how each one makes
-                it through.
+                Every listing has been audited on spec and signed off before it
+                goes live. Browse the current selection, or read how each one
+                makes it through.
               </p>
             </div>
             <div className="md:col-span-4 md:col-start-9 flex flex-col gap-4">
