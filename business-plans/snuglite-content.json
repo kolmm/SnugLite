@@ -1,0 +1,274 @@
+{
+  "project-name": "SnugLite",
+  "document-type-label": "Business Plan & KYC Profile",
+  "tagline": "Considered workspaces, shipped direct across the EU",
+  "legal-entity": "SnugLite SRL",
+  "location": "Bucharest, Romania",
+  "date": "May 2026",
+  "currency": "EUR",
+  "prepared-for": "Account Opening - Banking & Payment Partners",
+
+  "executive-summary": {
+    "intro": "This document presents the business profile of SnugLite SRL (Romanian company number 54577220), an EU-registered online curated reseller of office furniture, lighting and shelving. The company is currently in pre-launch phase - the catalogue and website are live, but no sales transactions have been recorded yet. This document is prepared in support of business banking and payment-account onboarding, and provides the bank and any acquiring partner with a complete picture of the business model, supply chain, planned customer flows, governance and regulatory posture ahead of first revenue.",
+    "business-overview": "SnugLite has built a curated catalogue of 44 active SKU across three categories - office furniture, lighting and shelving - selected from a shortlist of vetted EU and EU-bonded suppliers. The company does not hold inventory; orders are dispatched directly from the supplier's EU warehouse to the end customer (drop-shipment fulfilment model). SnugLite is responsible for catalogue curation, spec auditing, marketing, customer service, payments and warranty pass-through. First commercial transactions are projected for Q3 2026 once banking and payment-acquirer onboarding completes.",
+    "market-opportunity": "The European furniture market is valued at approximately EUR 110 billion (2024), with online penetration of 26 percent and the office-furniture sub-segment forecast to grow at a 5.96 percent CAGR through 2031 (Mordor Intelligence). Romania's product e-commerce market reached EUR 7 billion in 2024 and is projected at EUR 8.56 billion in 2026, growing at 7.25 percent CAGR (Mordor; EuroCommerce 2025). SnugLite targets the design-led and SMB office segment within this market.",
+    "funding-request": "The company is bootstrapped: funded entirely by founder equity of EUR 5,000, of which EUR 2,000 covers launch capital expenditure and EUR 3,000 is held as working-capital reserve. No bank loan, external investor capital or third-party debt is sought as part of this engagement; the document is prepared for account opening and ongoing payment processing, not credit underwriting. The lean cost base allows the business to project a small positive net income in Year 1 (approximately EUR 3,400) without further funding rounds.",
+    "use-of-funds": "Of the EUR 2,000 launch capital expenditure: marketing and content production (EUR 1,000, 50 percent), software, hosting and design tooling (EUR 500, 25 percent), legal and compliance setup (EUR 300, 15 percent) and supplier onboarding plus contingency (EUR 200, 10 percent). The EUR 3,000 working-capital reserve covers the small Year-1 cash drawdown during the first three months of ramp (lowest point approximately EUR 2,800 in month 2) and provides operating runway thereafter."
+  },
+
+  "company-description": {
+    "mission": "To make spec-honest, design-led office furniture and lighting accessible to small businesses and creative workspaces across the EU - by curating vetted suppliers and shipping their products direct to the customer, with full transparency on materials, certifications and warranty.",
+    "overview": "SnugLite SRL is a Romanian limited liability company incorporated in 2026, with its registered office in Bucharest. The business operates exclusively online via its e-commerce website (snuglitesrl.com), serving consumers and small-business buyers across the European Union. There is no physical retail showroom, no warehouse and no on-site staff at the registered office, which functions as the legal address only. All commercial activity - catalogue curation, marketing, customer service, payments and supplier liaison - is conducted remotely by the founding team and outsourced specialists.",
+    "legal-name": "SnugLite SRL",
+    "legal-form": "Societate cu Raspundere Limitata (Romanian Limited Liability Company)",
+    "jurisdiction": "Romania (EU member state)",
+    "founded": "2026",
+    "industry": "Online retail - office furniture, lighting and shelving (NACE 4791 / 4759)",
+    "headquarters": "Str. Pucheni 115B, Sector 5, Bucharest, Romania",
+    "milestones": [
+      "Q1 2026 - SnugLite SRL incorporated; Company No. 54577220 registered with ONRC.",
+      "Q2 2026 - E-commerce platform deployed, 44 SKU catalogue published, supplier framework agreements signed.",
+      "Q2 2026 - GDPR documentation completed; legal pages (T&Cs, refund policy, privacy policy, imprint) published.",
+      "Q3 2026 (in progress) - Business banking and payment-acquirer onboarding; OSS VAT readiness; first sales transactions projected.",
+      "Q4 2026 (planned) - First marketing campaigns scaled; soft target of EUR 5,500 monthly turnover by month 12.",
+      "2027 (planned) - Steady-state monthly revenue toward EUR 8,000-9,000; catalogue expansion toward ~80 SKU.",
+      "2028 (planned) - B2B trade pricing tier for office fit-out clients."
+    ]
+  },
+
+  "market-analysis": {
+    "industry-overview": "The European furniture market is large, mature and steadily migrating online. EFIC (European Furniture Industries Confederation) estimates the EU furniture market at approximately EUR 110 billion (2024). Within this, the office-furniture sub-segment is projected to grow from USD 15.36 billion in 2026 to USD 20.52 billion by 2031 at a 5.96 percent CAGR (Mordor Intelligence). Online furniture penetration in the EU is 26 percent of consumers purchasing in the last quarter of 2024 (EuroCommerce 2025), and continues to rise as design-conscious buyers favour curated, transparent online catalogues over traditional showrooms. The Romanian e-commerce market specifically reached EUR 7 billion in 2024 and is projected at EUR 8.56 billion in 2026, growing at 7.25 percent CAGR through 2031 (Ecommerce Europe; Mordor Intelligence).",
+    "tam-sam-som": {
+      "tam": 110,
+      "sam": 8,
+      "som": 0.001,
+      "unit": "B"
+    },
+    "segments": [
+      ["Design-led SMB offices", "EU SMB office furnishing ~EUR 3-4 bn/yr", "Creative agencies, design studios, architecture practices fitting 5-30 desks; value editorial brand voice and full specs."],
+      ["Hybrid / hot-desking workspaces", "EU coworking and flex-office ~EUR 1-1.5 bn/yr", "Operators of coworking, serviced offices and corporate flex floors needing durable, certified seating and lighting at predictable lead times."],
+      ["Home-office professionals", "EU furniture e-commerce ~EUR 28 bn/yr", "Remote-first knowledge workers replacing one chair, one lamp or one desk at a time; AOV EUR 150-450, single-unit orders."],
+      ["Boutique hospitality & retail interiors", "EU contract furniture niche", "Hotels, restaurants and showrooms procuring small lots of design-led furniture without going through traditional contract specifiers."]
+    ],
+    "competitors": [
+      ["Maisons du Monde (FR)", "Omnichannel, eclectic design-led home & furniture, broad EU catalogue", "Broader assortment, physical stores; SnugLite is online-only and workspace-focused."],
+      ["Westwing (DE)", "Premium-leaning curated home e-commerce club", "Membership/inspiration model; SnugLite is open-catalogue, spec-first and workspace-only."],
+      ["Home24 (DE)", "Pure-play online home & furniture, mid-market, pan-EU", "Mass-market depth; SnugLite is curated, smaller catalogue, design-led."],
+      ["Heal's (UK)", "Heritage British curated design retailer, contemporary furniture & lighting", "Premium positioning, UK-centric; SnugLite is EU-priced, contemporary."],
+      ["Swoon (UK)", "Direct-to-consumer curated design furniture, artisan focus", "Similar curated angle; SnugLite covers office/workspace specifically rather than residential."]
+    ],
+    "swot": {
+      "strengths": [
+        "Lean, asset-light model: no inventory risk, no warehouse capex, no stranded stock.",
+        "Curated 44-SKU catalogue with full spec sheets, EN 1335 / BIFMA / CE / REACH compliance disclosed on every listing.",
+        "EU jurisdiction with direct access to OSS VAT regime, REACH/CE alignment and pan-EU shipping.",
+        "Editorial brand voice differentiates from generic dropship competitors selling identical SKUs.",
+        "Cost structure dominated by variable marketing spend, scalable with revenue."
+      ],
+      "weaknesses": [
+        "No physical inventory means lead times depend on supplier dispatch; longer than warehouse-stocked competitors.",
+        "Brand new company - no track record, no customer reviews at inception.",
+        "Small team, key-person risk concentrated on founder.",
+        "Dropshipping model is classified as high-risk by EU acquirers, requiring more rigorous KYC and ongoing monitoring."
+      ],
+      "opportunities": [
+        "Post-pandemic hybrid workspace investment - SMBs upgrading home and small-office setups.",
+        "Romania e-commerce growing 7.25 percent CAGR; EU online furniture rising past 26 percent penetration.",
+        "Trade/B2B pricing for office fit-out specifiers underserved by both mass-market and luxury retailers.",
+        "Voice search and editorial SEO favour curated catalogues over megastores."
+      ],
+      "threats": [
+        "Acquirer / EMI de-risking of dropshipping merchants - account closure or fee escalation.",
+        "Supplier consolidation or exit - need to maintain dual-sourced critical SKUs.",
+        "EU regulatory changes (e.g. Right to Repair, Eco-design Directive expansion) that may force product withdrawals.",
+        "FX volatility on non-EUR-priced supplier inputs (notably CNY for Asian-sourced lighting)."
+      ]
+    }
+  },
+
+  "products-services": {
+    "description": "SnugLite operates a curated catalogue of 44 active SKU at launch across three categories: office furniture (chairs, desks, cabinets), shelving systems (carts, organisers, racks) and lighting (task lamps, ceiling fixtures, table lamps, pendants). Each listing carries a full technical spec sheet, certification details (EN 1335 for office seating, CE/RoHS for electrical lighting, REACH compliance disclosures), dimensions, materials, warranty terms and country of dispatch. All catalogue items are sourced from a shortlist of vetted suppliers and fulfilled directly from the supplier's EU warehouse to the buyer. SnugLite does not manufacture, hold inventory, or operate a showroom.",
+    "uvp": "Curated office furniture and lighting with full spec sheets and verified certifications, shipped direct from EU partner warehouses - no markups for showrooms or stock holding, no anonymous catalogue surrogates, and the warranty terms in writing on every listing.",
+    "offerings": [
+      ["Office furniture (chairs, desks, cabinets)", "EUR 159 - 1,349", "23 SKU at launch. Includes ergonomic task chairs (EN 1335 compliant), executive desks, sit-stand desks, filing cabinets, conference tables."],
+      ["Shelving systems", "EUR 45 - 129", "11 SKU. Rolling carts, multi-tier organisers, file racks, paper trays. Powder-coated steel and engineered wood construction."],
+      ["Lighting", "EUR 59 - 269", "10 SKU. CE-marked task lamps, clamp lamps, LED ceiling fixtures, table lamps and linear pendants. All with EU plug and written warranty."],
+      ["Average order value (forecast)", "EUR 180 - 280", "Based on EU furniture-category benchmarks (ECDB, Dynamic Yield 2024); single-unit consumer orders dominate, with multi-unit B2B orders averaging EUR 600+."]
+    ],
+    "roadmap": [
+      "H2 2026 - expand active SKU count from 44 to ~80 within the same three categories.",
+      "H1 2027 - introduce B2B trade pricing tier and direct-quote channel for fit-out projects above 10 units.",
+      "H2 2027 - add a fourth category (workspace accessories: monitor arms, footrests, acoustic panels).",
+      "2028 - evaluate UK market entry post-Brexit IOSS/customs setup; pilot at most one non-EUR currency."
+    ]
+  },
+
+  "marketing-sales": {
+    "positioning": "SnugLite positions itself as the editorial alternative to anonymous dropship marketplaces and bulk-volume office furniture retailers. The tone is reserved, spec-first and design-conscious - aimed at buyers who want a small, considered catalogue with verifiable materials and certifications, not an endless feed of identical SKUs. The brand language ('Considered Workspaces') deliberately avoids price-led promotion and rewards repeat readership over impulse conversion.",
+    "channels": [
+      ["Organic SEO and editorial content", "Always-on", "Long-tail product queries, sourcing guides, EN 1335 / certification explainers; lowest CAC in mature months."],
+      ["Google Shopping & Performance Max", "Launch + ongoing", "Catalogue ads with structured product feed; primary acquisition channel months 3-12."],
+      ["Meta (Instagram + Pinterest)", "Launch + ongoing", "Visual editorial content; remarketing to website visitors. Pinterest particularly strong for furniture discovery."],
+      ["Newsletter (low-frequency)", "Always-on", "Two emails per year cadence; retention-focused, no promotional cadence to protect brand voice."],
+      ["B2B outreach (Y2+)", "Year 2 onwards", "Direct outreach to design studios, architects and fit-out specifiers for trade-tier orders."],
+      ["Partnerships and PR", "Always-on, opportunistic", "Editorial placements in design publications; collaborations with workspace operators."]
+    ],
+    "funnel": [
+      ["Website sessions", 8000],
+      ["Product page views", 3200],
+      ["Add-to-cart events", 320],
+      ["Checkouts started", 80],
+      ["Orders completed", 50]
+    ],
+    "retention": "SnugLite does not run a high-cadence loyalty programme - the brand position would not support it. Retention is built through three mechanisms: (1) low-frequency editorial newsletter (target two sends per year, opt-in only); (2) post-purchase warranty registration with a short single-touch follow-up at 90 days; (3) repeat-buyer trade pricing for SMB customers who order more than three units across 12 months. Forecast repeat-purchase rate at month 12 is 12-15 percent (in line with EU furniture e-commerce benchmarks)."
+  },
+
+  "operations": {
+    "process": "Customer journey: (1) Buyer browses the catalogue at snuglitesrl.com, reads the spec sheet, places an order. (2) Payment is processed through a regulated EU PSP (Stripe / Mollie / Adyen - final selection contingent on account approval). (3) Order details are forwarded to the relevant supplier's EU warehouse via the supplier's standard B2B portal or API integration. (4) Supplier ships directly to the customer with their own courier (DPD, GLS, DHL, dedicated furniture freight for large items) under SnugLite's branded packing slip where supported. (5) SnugLite owns the customer relationship, handles support and warranty triage, and coordinates returns with the supplier. (6) Cash settlement: customer pays SnugLite at order, supplier invoices SnugLite net-7 to net-30. SnugLite does not handle goods physically at any point.",
+    "suppliers": [
+      ["European Furniture Supplier A (Poland)", "Primary supplier for ergonomic office seating and desks; ~15 SKU.", "Net-7 invoicing, FCA EU warehouse."],
+      ["European Lighting Supplier B (Germany)", "Lighting catalogue (task, ceiling, table, pendant); CE/RoHS pre-certified.", "Net-14, drop-ship enabled."],
+      ["EU Storage & Shelving Supplier C (Czech Republic)", "Carts, organisers, racks; powder-coat steel.", "Net-30, EU 3PL dispatch."],
+      ["Asian Furniture Supplier D (CN) via EU 3PL", "Niche executive seating and accessory SKUs; stocked at Dutch 3PL.", "Net-14 after EU receipt, IOSS-handled VAT."],
+      ["Payment Service Provider (TBD)", "Card acquiring, 3DSecure, chargeback handling.", "Standard PSP merchant agreement."],
+      ["Cloud infrastructure (hosting, CDN)", "Site hosting, image CDN, transactional email.", "Pay-as-you-go monthly."],
+      ["Outsourced accounting firm (Bucharest)", "Bookkeeping, VAT/OSS filings, annual returns.", "Monthly retainer."],
+      ["Outsourced customer support (Y2+)", "Tier-1 email & chat support during EU business hours.", "Per-ticket or monthly retainer."]
+    ],
+    "facilities": "SnugLite operates without physical retail or warehouse facilities. The Bucharest registered office (Str. Pucheni 115B, Sector 5) serves as the legal address required by Romanian company law and as the receiving address for official correspondence. There is no walk-in showroom, no on-site staff and no inventory at this location. All operational infrastructure is cloud-based: e-commerce platform hosting, CDN, transactional email, and the customer-data store are all delivered by EU-located cloud providers, with appropriate GDPR data processing agreements in place.",
+    "staffing": [
+      ["Founder / Director (unpaid Y1)", "1", "1", "1", "1", "1"],
+      ["Marketing & content (freelance)", "0", "0.2", "0.5", "1", "1"],
+      ["Customer support (outsourced)", "0", "0.2", "0.5", "1", "1"],
+      ["Outsourced accountant", "0.1", "0.1", "0.2", "0.2", "0.2"],
+      ["Total FTE-equivalent", "1.1", "1.5", "2.2", "3.2", "3.2"]
+    ]
+  },
+
+  "management": {
+    "overview": "SnugLite is led by a single founding director who controls 100 percent of the share capital and acts as Ultimate Beneficial Owner (UBO) under Romanian and EU AML regulations. The structure is deliberately lean to match the asset-light business model; specialist functions (accounting, customer support, design) are outsourced to vetted local providers. UBO and director identity, proof of address, and source-of-funds documentation are available on request as part of the standard bank onboarding pack.",
+    "team": [
+      {
+        "name": "[Founder / Sole Director - name on file]",
+        "role": "Director and 100% Beneficial Owner",
+        "bio": "Romanian-resident director, sole shareholder and UBO of SnugLite SRL. Background in e-commerce, product curation and small-business operations. Holds operational control over catalogue selection, supplier onboarding, marketing strategy and financial decision-making. Full identification documents and source-of-funds evidence available under the bank's KYC pack."
+      },
+      {
+        "name": "Outsourced accountant",
+        "role": "Bookkeeping, VAT/OSS filings, statutory returns",
+        "bio": "Bucharest-based accounting firm engaged on a monthly retainer for bookkeeping, VAT/OSS quarterly returns, monthly P&L close, and annual ANAF/ONRC filings. Engagement letter available on request."
+      }
+    ],
+    "advisors": [
+      "Romanian legal counsel (engaged on a per-matter basis) for company law, consumer law and GDPR compliance.",
+      "Tax and VAT/OSS adviser (the contracted accounting firm extends advisory on cross-border VAT)."
+    ],
+    "hiring-plan": "Year 1 is intentionally founder-only and unpaid - the director defers salary in order to keep fixed opex below EUR 500/month and reach positive net income within the first 12 months. The only paid services in Year 1 are the outsourced accountant (~EUR 200/month) and cloud/software costs. Year 2 introduces part-time freelance support for marketing and customer service (~0.4 FTE-equivalent combined) as monthly revenue stabilises. Year 3 expands these to half-time; Year 4 evaluates a salaried in-house hire. The company does not anticipate a salaried headcount above 3 FTE within the planning horizon - the business model is designed to scale revenue without proportional staffing growth."
+  },
+
+  "financial-plan": {},
+
+  "funding-request": {
+    "intro": "SnugLite is bootstrapped: funded entirely by founder equity of EUR 5,000. No bank loan, no venture capital and no external debt is sought as part of this document. The financial section is included to demonstrate viability and prudent cash management at this small scale, and to provide the bank with a base case against which to assess expected transaction volumes and operating runway. The lean cost base (founder-only payroll, outsourced accountant, cloud-only infrastructure, no inventory) is designed to deliver a small but positive net income in Year 1 without further funding.",
+    "use-of-funds": [
+      ["Launch capital expenditure (CapEx)", "EUR 2,000", "40.0%"],
+      ["  Marketing & content (launch campaigns, photography, copy)", "EUR 1,000", "20.0%"],
+      ["  Software, hosting, design and analytics tooling", "EUR 500", "10.0%"],
+      ["  Legal and compliance setup (notary, GDPR, T&Cs)", "EUR 300", "6.0%"],
+      ["  Supplier onboarding and contingency", "EUR 200", "4.0%"],
+      ["Working-capital reserve", "EUR 3,000", "60.0%"],
+      ["Total equity contribution", "EUR 5,000", "100.0%"]
+    ],
+    "repayment": "Not applicable. There is no debt facility in this plan, therefore no repayment obligation. The EUR 3,000 working-capital reserve covers the modest Year-1 cash drawdown (lowest point approximately EUR 2,800 in month 2 of operations) and provides operating runway as the catalogue ramps from launch to steady-state monthly revenue of approximately EUR 5,500 by month 12. Year-1 closes with positive net income (approximately EUR 3,400) and a cash position of approximately EUR 7,000 - the business reaches sustainable monthly profitability within the first quarter of operations."
+  },
+
+  "risks": {
+    "intro": "SnugLite operates a lean, asset-light model that limits balance-sheet risk but concentrates execution risk in marketing efficiency, supplier reliability and the regulatory posture banks and acquirers take toward dropshipping merchants. The register below lists the seven principal risks the company tracks, ranked by combined probability and impact. Each risk has a documented mitigation; risks classified High/High are reviewed quarterly by the director.",
+    "register": [
+      {
+        "code": "R01",
+        "description": "Supplier dependency - loss of a critical EU supplier could remove 15-30% of catalogue overnight.",
+        "probability": "Medium",
+        "impact": "High",
+        "probability-num": 3,
+        "impact-num": 4,
+        "mitigation": "Dual-source the top-10 revenue SKUs with backup suppliers; maintain framework agreements with at least 2 EU partners per category; quarterly supplier health review."
+      },
+      {
+        "code": "R02",
+        "description": "Account de-risking / acquirer offboarding - dropshipping is high-risk for EU acquirers (Fibonatix 2024).",
+        "probability": "Medium",
+        "impact": "High",
+        "probability-num": 3,
+        "impact-num": 5,
+        "mitigation": "Full and proactive disclosure of business model to PSP and bank; chargeback ratio maintained below 0.5%; 3DSecure enforced; transparent T&Cs and refund policy; backup PSP relationship established within first 6 months."
+      },
+      {
+        "code": "R03",
+        "description": "VAT / OSS / IOSS compliance failure for cross-border B2C sales.",
+        "probability": "Low",
+        "impact": "High",
+        "probability-num": 2,
+        "impact-num": 4,
+        "mitigation": "OSS registration with ANAF immediately on crossing EUR 10,000 cross-border distance-sales threshold; quarterly OSS return filed by outsourced accountant; IOSS via supplier where goods originate outside EU; annual VAT/OSS review."
+      },
+      {
+        "code": "R04",
+        "description": "Logistics / delivery delays beyond published lead times, leading to refund spikes.",
+        "probability": "Medium",
+        "impact": "Medium",
+        "probability-num": 3,
+        "impact-num": 3,
+        "mitigation": "Conservative lead times published on every SKU; pre-launch SLA with supplier 3PLs; tracking number passed to customer at dispatch; automatic refund triggered for shipments >14 days overdue."
+      },
+      {
+        "code": "R05",
+        "description": "REACH / CE / EN 1335 non-conformity discovered post-listing, requiring product withdrawal.",
+        "probability": "Low",
+        "impact": "High",
+        "probability-num": 2,
+        "impact-num": 4,
+        "mitigation": "Compliance documentation required from supplier before SKU goes live; annual re-verification; immediate delisting on any conformity concern; recall process documented and tested."
+      },
+      {
+        "code": "R06",
+        "description": "FX exposure on non-EUR supplier inputs (notably CNY for Asian-sourced lighting).",
+        "probability": "Low",
+        "impact": "Low",
+        "probability-num": 2,
+        "impact-num": 2,
+        "mitigation": "Supplier contracts pegged to EUR where possible; cost-of-goods reviewed monthly; FX volatility passed into list-price adjustments quarterly."
+      },
+      {
+        "code": "R07",
+        "description": "Marketing CAC inflation reducing contribution margin.",
+        "probability": "Medium",
+        "impact": "Medium",
+        "probability-num": 3,
+        "impact-num": 3,
+        "mitigation": "Channel mix diversified from launch (organic SEO 30%, paid social 30%, Google Shopping 30%, other 10%); monthly CAC and payback monitoring; pause-and-reallocate trigger if CAC > 25% of AOV."
+      }
+    ]
+  },
+
+  "appendices": {
+    "methodology": "Financial projections are deterministic, computed from explicit input assumptions (year-1 monthly steady-state revenue, year-on-year growth, COGS percentage, fixed and variable operating expenses, tax rate, depreciation horizon and working-capital days) via the bundled calculation script. Year-1 revenue ramps linearly from 30% to 100% of steady-state over the first nine months, reflecting a typical e-commerce growth curve. Market sizing draws on EFIC, EuroCommerce, Mordor Intelligence, Ecommerce Europe, ECDB and PwC sources cited in the body of the document. Regulatory references are drawn from EUR-Lex, the European Commission VAT One Stop Shop portal, ECHA REACH guidance and the CEN EN 1335 standard series. All currency figures are in EUR (excluding VAT) unless otherwise stated.",
+    "glossary": [
+      {"term": "AOV", "definition": "Average Order Value. Total revenue divided by number of orders."},
+      {"term": "AMLD6", "definition": "EU 6th Anti-Money Laundering Directive, governing AML obligations for financial institutions and certain non-financial obliged entities."},
+      {"term": "CAC", "definition": "Customer Acquisition Cost. Total marketing spend divided by number of customers acquired."},
+      {"term": "CE Marking", "definition": "Conformite Europeenne. Mandatory marking for electrical, electronic and many other products placed on the EU market, indicating conformity with applicable EU directives."},
+      {"term": "EN 1335", "definition": "European standard for office work chairs, covering dimensions (Part 1), safety (Part 2) and durability (Part 3)."},
+      {"term": "GDPR", "definition": "Regulation (EU) 2016/679 - the EU General Data Protection Regulation."},
+      {"term": "GMV", "definition": "Gross Merchandise Value. Total transaction value processed through the platform before refunds and chargebacks."},
+      {"term": "IOSS", "definition": "Import One Stop Shop. EU VAT scheme for collecting VAT at checkout on imported B2C goods up to EUR 150."},
+      {"term": "KYC", "definition": "Know Your Customer. The mandatory bank/EMI due diligence performed on a business before opening an account."},
+      {"term": "ONRC", "definition": "Oficiul National al Registrului Comertului - Romania's National Trade Register Office."},
+      {"term": "OSS", "definition": "One Stop Shop. EU VAT scheme allowing EU-established sellers to declare intra-EU B2C distance sales in a single quarterly return."},
+      {"term": "PSP", "definition": "Payment Service Provider. The regulated entity that processes card payments (e.g. Stripe, Mollie, Adyen)."},
+      {"term": "REACH", "definition": "Regulation (EC) 1907/2006 on the Registration, Evaluation, Authorisation and Restriction of Chemicals."},
+      {"term": "SRL", "definition": "Societate cu Raspundere Limitata. Romanian limited liability company form."},
+      {"term": "UBO", "definition": "Ultimate Beneficial Owner. Any natural person who ultimately owns or controls 25% or more of the company, or otherwise exercises control."}
+    ]
+  }
+}
